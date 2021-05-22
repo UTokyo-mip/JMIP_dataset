@@ -18,6 +18,7 @@ Ju, Y., Sugiyama, M., Kato, E., Matsuo, Y., Oshiro, K., & Silva Herran, D. (2021
 See more papers in the special issue.https://link.springer.com/journal/11625/topicalCollection/AC_9ad334fd69d8118185398263fbc22961
 
 Terms of Use
+
 To enable modeling groups and others who support JMIP to demonstrate its impact (and secure ongoing funding), you are required to cite and acknowledge those who have made JMIP possible. You also must abide by any licensing restrictions. 
 
 Specifically, you must
