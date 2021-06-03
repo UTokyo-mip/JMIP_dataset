@@ -1,0 +1,42 @@
+# This file omits comments
+format: 1
+
+title: JMIP dataset 2021
+description: >
+  JMIP model results
+provider:
+  organisation: Japan Model Inter-comparision Project (JMIP)
+  contact: masahiro_sugiyama AT alum.mit.edu
+
+# Arbitrary hierarchical classifiers describing the data
+classifiers:
+- "Kind :: IAM results"
+- "Availability :: Public"
+- "Usage :: Cite and acknowledge required"
+
+data:
+- measure: final energy consumption
+  dimensions: [year, sub-sector, scenario, model, region]
+  units: EJ/yr
+  
+
+# List of data dimensions
+dimensions:
+  year:
+    scope: 2005-2050
+    time slice: 5 years    
+  sub-sector:
+    scope: Cement, Steel, Chemicals, Non-ferrous metals, Pulp and Paper, Other    
+  scenario:
+    scope: EMF35 JMIP scenarios
+    supplementation info: https://doi.org/10.1007/s11625-021-00931-0
+  model:
+    scope: AIM/Hub-Japan, AIM/Enduse-Japan, DNE21, IEEJ_Japan 2017
+  region:
+    scope: Japan
+    
+# List of data measures
+measures:
+  final energy consumption:
+    description: Total final energy consumption of all fuels by all end-use sectors, excluding transmission/distribution losses.
+  
